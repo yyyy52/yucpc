@@ -1,6 +1,6 @@
 baseurl = "/"
 title = "YUCPC-山梨大学競技プログラミング部"
-theme = "hugo-universal-theme"
+#theme = "hugo-universal-theme"
 languageCode = "ja-jp"
 hasCJKLanguage = true
 # Site language. Available translations in the theme's `/i18n` directory.

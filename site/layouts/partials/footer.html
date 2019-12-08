@@ -1,0 +1,79 @@
+<footer id="footer">
+    <div class="container">
+
+        <div class="col-md-6 col-sm-6">
+            <h4>Menu</h4>
+
+            {{ $current := . }}
+            {{ range .Site.Menus.main }}
+            {{ $topLevel := replace .URL "/" "" }}
+            <li class="dropdown{{ if eq $current.RelPermalink .URL | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
+              {{ if .HasChildren }}
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                {{ range .Children }}
+                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+              {{ else }}
+              <a href="{{ .URL }}">{{ .Name }}</a>
+              {{ end  }}
+            </li>
+            {{ end }}
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        <!-- /.col-md-4 -->
+
+        <!-- /.col-md-4 -->
+
+        {{ if isset .Site.Params "address" }}
+        <div class="col-md-6 col-sm-6">
+
+          <h4>{{ i18n "contactTitle" }}</h4>
+
+            <p class="hidden-sm hidden-xs">Contact us on <a href="http://twitter.com/yucpclub">@yucpclub</a> or or yucpclub@gmail.com.</p>
+            <p class="hidden-md hidden-lg"></p>
+                {{ range .Site.Menus.topbar.ByWeight }}
+                    <a href="{{ .URL }}" data-animate-hover="pulse">{{ .Pre }}</a>
+                {{ end }}
+            </p>
+
+            <a href="/contact" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        <!-- /.col-md-4 -->
+        {{ end }}
+
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- /#footer -->
+
+<!-- *** FOOTER END *** -->
+
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            {{ if isset .Site.Params "copyright" }}
+            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            {{ end }}
+            <p class="pull-right">
+              {{ i18n "templateBy" | markdownify }} <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+              <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
+
+              {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- /#copyright -->
+
+<!-- *** COPYRIGHT END *** -->

@@ -1,0 +1,35 @@
+{{ if isset .Site.Params "carousel" }}
+{{ if .Site.Params.carousel.enable }}
+<section>
+    <div class="home-carousel">
+        <div class="dark-mask"></div>
+        <div class="container">
+            <div class="homepage owl-carousel">
+                {{ range first 3 (where site.RegularPages "Type" "news")}}
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-5 right">
+                            <h1>{{ .Title }}</h1>
+                            <p class="date-comments">
+                                    <i class="far fa-calendar"></i> {{ .Date.Format .Site.Params.date_format }}
+                            </p>
+                            <p class="intro">{{ .Summary }}</p>
+                            <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                        </div>
+                        <div class="col-sm-7">
+                            {{ if .Params.banner }}
+                            <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
+                            {{ else }}
+                            <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <!-- /.project owl-slider -->
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
