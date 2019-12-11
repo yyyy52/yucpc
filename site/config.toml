@@ -130,7 +130,7 @@ paginate = 10
 [params.widgets]
     categories = true
     tags = true
-    search = false
+    search = false #need to repair
 
 [params.carousel]
     enable = true
