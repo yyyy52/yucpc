@@ -88,7 +88,7 @@ paginate = 10
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "yucpclub" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+    default_sharing_image = "/img/sharing-default.png"
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = ""
@@ -105,8 +105,8 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    logo = "/img/logo.png"
+    logo_small = "/img/logo-small.png"
     address = """<p class="hidden-sm hidden-xs">...</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
