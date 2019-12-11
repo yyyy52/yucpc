@@ -10,14 +10,12 @@
 }
 /*share button by https://aakira.app/blog/2018/08/share/ */
 .sns_parent {
-  position: relative;
+  text-align: center;
 }
- .sns_section {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%);
+
+.sns_section {
+  display: inline-block;
+  text-align: left;
 }
 .sns_button {
   float: left;
