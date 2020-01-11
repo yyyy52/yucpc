@@ -47,36 +47,10 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
-    identifier="joinus"
-    name = "入部希望の方へ"
-    url  = "/joinus/"
-    weight = 5
-
-[[menu.main]]
     identifier = "contact"
     name = "Contact"
     url  = "/contact/"
-    weight = 6
-
-# Top bar social links menu
-
-#[[menu.topbar]]
-#    weight = 1
-#    name = "GitHub"
-#    url = "https://github.com/devcows/hugo-universal-theme"
-#    pre = "<i class='fab fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 1
-    name = "Email"
-    url = "mailto:yucpclub@gmail.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "Twitter"
-    url = "http://twitter.com/yucpclub"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+    weight = 5
 
 [params]
     viewMorePostLink = "/blog/"
@@ -86,7 +60,6 @@ paginate = 10
     defaultDescription = "The homepage of YUCPC"
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "yucpclub" # the Twitter handle of your site (without the '@')
     default_sharing_image = "/img/sharing-default.png"
 

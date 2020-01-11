@@ -10,8 +10,9 @@ Home page of YUCPC
 
 
 >#The Document and Site for contributor
-- Git 
-    -[Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+- Git   
+    - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)  
+    - [Git Doc](https://git-scm.com/book/en/v2)
 
 - Netlify CMS
    - [NetlifyCMS Docs](https://www.netlifycms.org/docs/)  

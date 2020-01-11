@@ -14,11 +14,11 @@
         </div>
 
             <!-- *** BLOG HOMEPAGE *** -->
-        <div class="col-md-9  col-sm-9 col-xs-12">
+        <div class="col-md-12  col-sm-12 col-xs-12">
             <div class="row">
                 {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-                {{ range first 3 $posts.Pages }}
-                <div class="col-md-4 col-sm-4 col-xs-12">
+                {{ range first 4 $posts.Pages }}
+                <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="box-image-text blog">
                         <div class="top">
                             <div class="image" style="overflow:hidden">
@@ -63,10 +63,6 @@
             <!-- *** BLOG HOMEPAGE END *** -->
             
 
-        </div>
-
-        <div class="col-md-3 col-sm-3 col-xs-12">
-            <a class="twitter-timeline" data-height="500" href="https://twitter.com/yucpclub"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
     <!-- /.container -->

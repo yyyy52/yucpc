@@ -13,8 +13,7 @@ keywords = ["about"]
 * アルゴリズムの講習
 * 競プロ問題の練習
 * プログラミングコンテストの参加
-
-
+  
 ## 活動日程
 
 週三回活動します（月，水，金　16:30-20:00）
@@ -34,10 +33,7 @@ PG-BATTLE 2018
 
 >## 現役メンバー
 
-
-名前|b|c
--------|-------|-------
-[commy](/member/commy)|2|3
+[commy](/member/commy)  
 dreamerspark  
 fiftysevenTGGX  
 hango  
@@ -51,3 +47,25 @@ teikai
 xuelei  
 YamaRio  
 yyyy52  
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">名前</th>
+      <th scope="col">役職</th>
+      <th scope="col">個人ページ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>commy <a target="_blank" href="https://twitter.com/sososoda12" class="link twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+        <tr>
+      <td>commy</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
