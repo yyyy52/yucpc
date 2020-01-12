@@ -1,6 +1,6 @@
 Home page of YUCPC
 
->#How to post
+>How to post
 - [Netlify CMSとは](https://lab.sonicmoov.com/web-service/netlify-cms/)
 - [Use <!-more--> to split the article.](https://gohugo.io/content-management/summaries/)  
 - [Hugoにおける記事要約の仕組み](https://qiita.com/DQNEO/items/4cc651aa1c2d0ced9fae)
@@ -9,7 +9,7 @@ Home page of YUCPC
 ...  
 
 
->#The Document and Site for contributor
+>The Document and Site for contributor
 - Git   
     - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)  
     - [Git Doc](https://git-scm.com/book/en/v2)
