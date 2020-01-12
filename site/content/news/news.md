@@ -1,8 +1,8 @@
 ---
 title : ICPC
 date : 2018-06-24T13:50:46+02:00
-tags : ["theme","new"]
+tags : ["sample","news"]
 categories : ["news"]
-description : sample of markdown
-banner : img/banners/banner-3.jpg
+description : 
+banner : img/fixed-background-2.jpg
 ---

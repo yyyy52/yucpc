@@ -47,10 +47,33 @@ paginate = 10
     weight = 4
 
 [[menu.main]]
+    identifier = "other"
+    name = "Others"
+    weight = 5
+    
+[[menu.main]]
+    parent  = "other"
+    name = "Virtual Contest"
+    weight = 1
+    url = "/other/VirtualContest/"
+    
+[[menu.main]]
+    parent  = "other"
+    name = "Document"
+    weight = 2
+    url = "/other/Document"
+    
+[[menu.main]]
+    parent  = "other"
+    name = "Past Members"
+    weight = 3
+    url = "/other/PastMembers"
+    
+[[menu.main]]
     identifier = "contact"
     name = "Contact"
     url  = "/contact/"
-    weight = 5
+    weight = 6
 
 [params]
     viewMorePostLink = "/blog/"

@@ -1,10 +1,10 @@
 ---
 title : sample
-date : 2018-06-24T13:50:46+02:00
-tags : ["theme","new"]
-categories : ["news"]
+date : 2017-06-24T13:50:46+02:00
+tags : ["sample"]
+categories : ["sample"]
 description : sample of markdown
-banner : img/banners/banner-1.jpg
+banner : img/banners/icon.jpg
 ---
 sample of markdown
 <!--more-->
