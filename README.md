@@ -66,6 +66,8 @@ Home page of YUCPC
 │   │   ├── list.html            //List page template like blog or news page
 │   │   └── single.html          //Single page template like the post in blog or news
 │   ├── index.html               //Homepage template
+│   ├── other                    //Single page template like the post in other
+│   │   └── single.html    
 │   ├── page  
 │   │   └── single.html          //Single page template like contact
 │   ├── partials                 //Components that can be used in other templates
