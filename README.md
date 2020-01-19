@@ -71,7 +71,7 @@ Home page of YUCPC
 │   ├── partials                 //Components that can be used in other templates
 │   └── section  
 │       └── about.html           //About page is almost written by .html
-├── package.json                 //Sorry idk
+├── package.json                 //Sorry i don't know
 ├── package-lock.json            //Sorry
 ├── static                       //Static content like css and image
 │   ├── admin                    //Admin page
@@ -96,19 +96,19 @@ and run:
 ~/yucpc  $npm install
 ```
 You will see the folder `./node_modules` be installed.  
-Now you can developing the website.  
+Now you can develop the website.  
 Before developing, remember to **clone this repository!!!**.
 
 ### Preview
-To preview your new site,run:
+To preview your new site, run:
 ```
 ~/yucpc  $npm run preview
 ```
-The project will be running at http://localhost:3000/ And you can Press Ctrl+C to stop it.  
+The project will be running at http://localhost:3000/ And you can press Ctrl+C to stop it.  
 Your changes will immediately appear in the browser(localhost:3000).  
 So, you do not need to restart the project after you change files. 
 
-### Push to github
+### Push to Github
 ```
 ~/yucpc  $git add .
 ~/yucpc  $git commit -m "Create New Blog"
