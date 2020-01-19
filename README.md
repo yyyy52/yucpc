@@ -1,6 +1,6 @@
 Home page of YUCPC
 
->How to post
+## How to post
 - [Netlify CMSとは](https://lab.sonicmoov.com/web-service/netlify-cms/)
 - [Use <!-more--> to split the article.](https://gohugo.io/content-management/summaries/)  
 - [Hugoにおける記事要約の仕組み](https://qiita.com/DQNEO/items/4cc651aa1c2d0ced9fae)
@@ -9,7 +9,7 @@ Home page of YUCPC
 ...  
 
 
->The Document and Site for contributor
+## The Document and Site for contributor
 - Git   
     - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)  
     - [Git Doc](https://git-scm.com/book/en/v2)
@@ -38,4 +38,80 @@ Home page of YUCPC
    - [Twitter Timeline](https://publish.twitter.com/#)
     
 - Gitbook
-   - [Gitbook Docs](https://docs.gitbook.com/)
+   - [Gitbook Docs](https://docs.gitbook.com/)  
+
+
+## Directory Structure
+
+```
+./site
+├── archetypes                   //Template of creating new content files
+├── config.toml                  //The config of this site 
+├── content                      //Content
+│   ├── about  
+│   │   └── _index.md            //Part of Q&A in about page
+│   ├── blog  
+│   ├── contact.md  
+│   ├── news  
+│   └── other  
+│       ├── Document.md  
+│       ├── PastMembers.md  
+│       └── VirtualContest.md  
+├── data                         //Data (Not used yet)
+├── i18n                         //internationalization(Only Japanese and English)
+├── layouts                      //Site page template
+│   ├── 404.html                 //404 page
+│   ├── archetypes  
+│   ├── _default  
+│   │   ├── list.html            //List page template like blog or news page
+│   │   └── single.html          //Single page template like the post in blog or news
+│   ├── index.html               //Homepage template
+│   ├── page  
+│   │   └── single.html          //Single page template like contact
+│   ├── partials                 //Components that can be used in other templates
+│   └── section  
+│       └── about.html           //About page is almost written by .html
+├── package.json                 //Sorry idk
+├── package-lock.json            //Sorry
+├── static                       //Static content like css and image
+│   ├── admin                    //Admin page
+│   ├── css 
+│   ├── img                      //Stores all image
+│   └── js                       //JavaScript
+└── theme.toml                   //Sorry
+```
+>[Document of Directory Structure](https://gohugo.io/getting-started/directory-structure/)  
+
+## Simple usage (**Contributor!!**)  
+ 
+### Prerequisites
+You need to installed [hugo](https://gohugo.io/getting-started/quick-start/) and [npm](https://www.npmjs.com/get-npm) first.   
+Then clone this repository:  
+```
+~        $git clone --recursive https://github.com/yyyy52/yucpc.git
+~        $cd ./yucpc
+```
+and run:  
+```
+~/yucpc  $npm install
+```
+You will see the folder `./node_modules` be installed.  
+Now you can developing the website.  
+Before developing, remember to **clone this repository!!!**.
+
+### Preview
+To preview your new site,run:
+```
+~/yucpc  $npm run preview
+```
+The project will be running at http://localhost:3000/ And you can Press Ctrl+C to stop it.  
+Your changes will immediately appear in the browser(localhost:3000).  
+So, you do not need to restart the project after you change files. 
+
+### Push to github
+```
+~/yucpc  $git add .
+~/yucpc  $git commit -m "Create New Blog"
+~/yucpc  $git push
+```
+お疲れさまでした！
