@@ -35,8 +35,8 @@
 - Twitter
    - [Twitter Timeline](https://publish.twitter.com/#)
     
-- Gitbook
-   - [Gitbook Docs](https://docs.gitbook.com/)  
+> - Gitbook
+>    - [Gitbook Docs](https://docs.gitbook.com/)  
 
 
 ## Directory Structure
