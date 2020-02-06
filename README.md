@@ -1,5 +1,3 @@
-Home page of YUCPC
-
 ## How to post
 - [Netlify CMSとは](https://lab.sonicmoov.com/web-service/netlify-cms/)
 - [Use <!-more--> to split the article.](https://gohugo.io/content-management/summaries/)  
