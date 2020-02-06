@@ -35,4 +35,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text",required: false}
       - {label: "Banner", name: "Banner", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "site/content/about/_index.md"
+        label: "Q&A"
+        name: "q&a"
+        fields:
+              - {label: "Body", name: "body", widget: "markdown"}
