@@ -7,7 +7,7 @@
 ...  
 
 
-## The Document and Site for contributor
+## Docs
 - Git   
     - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)  
     - [Git Doc](https://git-scm.com/book/en/v2)
