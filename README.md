@@ -81,37 +81,3 @@
 └── theme.toml                   //Sorry
 ```
 >[Document of Directory Structure](https://gohugo.io/getting-started/directory-structure/)  
-
-## Simple usage (**Contributor!!**)  
- 
-### Prerequisites
-You need to installed [hugo](https://gohugo.io/getting-started/quick-start/) and [npm](https://www.npmjs.com/get-npm) first.   
-Then clone this repository:  
-```
-~        $git clone --recursive https://github.com/yyyy52/yucpc.git
-~        $cd ./yucpc
-```
-and run:  
-```
-~/yucpc  $npm install
-```
-You will see the folder `./node_modules` be installed.  
-Now you can develop the website.  
-Before developing, remember to **clone this repository!!!**.
-
-### Preview
-To preview your new site, run:
-```
-~/yucpc  $npm run preview
-```
-The project will be running at http://localhost:3000/ And you can press Ctrl+C to stop it.  
-Your changes will immediately appear in the browser(localhost:3000).  
-So, you do not need to restart the project after you change files. 
-
-### Push to Github
-```
-~/yucpc  $git add .
-~/yucpc  $git commit -m "Create New Blog"
-~/yucpc  $git push
-```
-お疲れさまでした！
