@@ -44,7 +44,7 @@
 ```
 ./site
 ├── archetypes                   //Template of creating new content files
-├── config.toml                  //The config of this site 
+├── config.toml                  //Site config file
 ├── content                      //Content
 │   ├── about  
 │   │   └── _index.md            //Part of Q&A in about page
@@ -57,7 +57,7 @@
 │       └── VirtualContest.md  
 ├── data                         //Data (Not used yet)
 ├── i18n                         //internationalization(Only Japanese and English)
-├── layouts                      //Site page template
+├── layouts                      //view templates
 │   ├── 404.html                 //404 page
 │   ├── archetypes  
 │   ├── _default  
