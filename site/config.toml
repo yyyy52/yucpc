@@ -112,7 +112,7 @@ paginate = 10
     latitude = "-12.043333"
     longitude = "-77.028333"
     
-    url = "https://yucpctest.netlify.com"
+    url = "https://www.yucpc.org"
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
