@@ -71,8 +71,8 @@
 │   ├── partials                 //Components that can be used in other templates
 │   └── section  
 │       └── about.html           //About page is almost written by .html
-├── package.json                 //Sorry i don't know
-├── package-lock.json            //Sorry
+├── package.json                 
+├── package-lock.json            
 ├── static                       //Static content like css and image
 │   ├── admin                    //Admin page
 │   ├── css 
